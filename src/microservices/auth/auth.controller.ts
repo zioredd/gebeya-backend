@@ -17,4 +17,8 @@ export class AuthController {
 
     return UserRto.fromEntity(response);
   }
+
+  async login() {
+    return this.authService.login();
+  }
 }

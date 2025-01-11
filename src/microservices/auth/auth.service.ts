@@ -16,4 +16,8 @@ export class AuthService {
 
     return user;
   }
+
+  async login(): Promise<string> {
+    return 'Login successful';
+  }
 }
